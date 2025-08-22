@@ -1,0 +1,4 @@
+zmq
+urllib3
+requests
+pycryptodome
