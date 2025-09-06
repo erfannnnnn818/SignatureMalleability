@@ -8,24 +8,8 @@
 Decoding `RawTX` is `Bitcoin` the process of converting raw transaction data (in the form of a hexadecimal string) into an understandable format that allows you to see transaction details such as inputs, outputs, and addresses.
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3} -->
-## What is RawTX?
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-[What is RawTX?](https://github.com/smartibase/Broadcast-Bitcoin-Transaction/tree/main/decoderaw#what-is-rawtx)
-<!-- /wp:paragraph -->
-
 <!-- wp:paragraph -->
 **`RawTX`** (raw transaction) is the raw format of a Bitcoin transaction that includes all the data needed to perform the transaction, but is not interpreted by the Bitcoin client. It is usually represented as a hexadecimal string.
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-### Why do you need decoding?
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-[Why do you need decoding?](https://github.com/smartibase/Broadcast-Bitcoin-Transaction/tree/main/decoderaw#why-do-you-need-decoding)
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -37,14 +21,6 @@ Decoding RawTX allows you to:
 - **Debug transactions**: Developers can use decoding to analyze and fix errors in their transactions.
 - **Analyze security**: Security researchers can look for vulnerabilities or anomalies in transaction structures.
 <!-- /wp:list -->
-
-<!-- wp:heading {"level":3} -->
-### How does decoding happen?
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-[How does decoding happen?](https://github.com/smartibase/Broadcast-Bitcoin-Transaction/tree/main/decoderaw#how-does-decoding-happen)
-<!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 **Receiving RawTX**: First, you need to obtain the raw transaction, which can be received from a Bitcoin node or created manually.
